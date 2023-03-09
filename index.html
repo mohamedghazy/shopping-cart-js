@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav_container">
+      <div class="content_container">
+        <div>
+          <p>E-commerece</p>
+        </div>
+        <div class="cart_icon">
+          <img src="./cart.png" alt="cart icon" />
+        </div>
+        <!-- cart  -->
+        <div class="cart">
+          <h2 class="cart_title">Your Cart</h2>
+          <div class="cart_container" id="cart_items"></div>
+          <div class="total" id="total">
+            <div class="total_title">Total</div>
+          </div>
+          <img src="./x.png" alt="close icon" id="close_img" />
+        </div>
+        <!-- quick view -->
+        <div class="quick_view_container" id="modal"></div>
+      </div>
+    </div>
+    <!-- porducts -->
+    <section class="shope">
+      <h1>Shope Products</h1>
+      <div id="products" class="product-grid-container"></div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>
